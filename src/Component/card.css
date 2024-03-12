@@ -1,0 +1,11 @@
+.card{
+    display: flex;
+    flex-direction: row;
+    background-color: hsl(241, 100%, 89%);
+    margin: 10px;
+    border-radius: 11px;
+    padding: 15px;
+    color: hsl(0, 100%, 67%);
+    gap: 10px;
+    justify-content: space-between;
+}

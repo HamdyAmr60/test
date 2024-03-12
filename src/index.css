@@ -1,0 +1,64 @@
+@font-face {
+  font-family: 'monoc';
+  src: url(./assets/fonts/HankenGrotesk-VariableFont_wght.ttf);
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: "monoc";
+}
+
+
+.container{
+  display: flex;
+  background-color: white;
+  box-shadow: 0px 4px 8px rgba(0 , 0, 0 ,.1);
+  border-radius: 11px;
+  gap: 10px;
+  width: 700px;
+  height: 400px;
+}
+
+.dash-board{  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  flex-direction: column;
+  gap: 20px;
+  background-image: linear-gradient(hsl(252, 100%, 67%) ,hsl(241, 81%, 54%));
+  border-radius: 11px;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.app-card{
+  width: 50%;
+  justify-content: space-around;
+  display: flex;
+  flex-direction: column;
+}
+.Ali{
+  background-image: linear-gradient(hsla(256, 72%, 46%, 1) ,hsla(241, 72%, 46%, 0));
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  border-radius: 50%;
+  flex-direction: column;
+}
+.Ali span{
+  font-size: 50px;
+  font-weight: bold;
+}
